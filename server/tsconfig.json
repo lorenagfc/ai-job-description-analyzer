@@ -5,11 +5,11 @@
     "moduleResolution": "NodeNext",
     "rootDir": "./src",
     "outDir": "./dist",
-    "types": ["node", "jest"],
+    "types": ["node"],
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "sourceMap": true
   },
-  "include": ["src", "jest.config.ts"]
+  "include": ["src"]
 }
