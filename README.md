@@ -48,7 +48,7 @@ The project was built to help job seekers better understand job requirements and
 Clone the repository:
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/lorenagfc/ai-job-description-analyzer.git
 cd ai-job-description-analyzer
 ```
 
@@ -257,7 +257,7 @@ O projeto foi desenvolvido para ajudar candidatos a compreender melhor os requis
 Clone o repositório:
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/lorenagfc/ai-job-description-analyzer.git
 cd ai-job-description-analyzer
 ```
 
