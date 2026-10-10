@@ -5,7 +5,7 @@ export type AnalysisResult = {
   gaps: string[]
 }
 
-const API_URL = 'http://localhost:3000'
+const API_URL = 'https://ai-job-description-analyzer-api.onrender.com'
 
 export async function analyzeJobDescription(
   jobDescription: string,

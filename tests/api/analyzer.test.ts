@@ -1,9 +1,9 @@
-
 /// <reference types="jest" />
 
 import { analyzeJobDescription } from '../../src/api/analyzer'
 
 describe('analyzeJobDescription', () => {
+  const API_URL = 'https://ai-job-description-analyzer-api.onrender.com'
   const mockFetch = jest.fn()
 
   beforeEach(() => {
@@ -32,7 +32,7 @@ describe('analyzeJobDescription', () => {
     )
 
     expect(mockFetch).toHaveBeenCalledWith(
-      'http://localhost:3000/api/analyze',
+      `${API_URL}/api/analyze`,
       {
         method: 'POST',
         headers: {
